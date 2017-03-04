@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "path": "/assets",
+      "resource": {
+        "assets": ["app.css", "app.js","helmApiClient.js"]
+      }
+    },
+    {
+      "path": "/",
+      "resource": {
+        "asset": "app.html"
+      }
+    },
+    {
+      "path": "/api",
+      "resource": {
+        "api": "helm"
+      }
+    }
+  ]
+}
